@@ -1,0 +1,25 @@
+.dropdown-container::after{
+    content: '';
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background: #0E1726;
+    /* background-color: red; */
+    top: -7px;
+    right: 20px;
+    transform: rotate(45deg);
+}
+
+ul li {
+    padding: 8px;
+    
+    color: var(--white);
+}
+
+
+
+ul li:hover {
+    border-radius: 5px;
+    background-color: #191E3A;
+}
+
