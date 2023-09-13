@@ -10,7 +10,7 @@ import useTicketStatus from '@/Hooks/useTicketStatus';
 import useTotalTicket from '@/Hooks/useTotalTicket';
 import "./DashboardInfo.css"
 
-const page = () => {
+const Page = () => {
     const role = 'admin'
 	const { tickets } = useUserTickets();
 	const { totalStatus } = useTicketStatus();
@@ -136,4 +136,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;
